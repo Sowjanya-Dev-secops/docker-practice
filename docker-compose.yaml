@@ -81,7 +81,7 @@ networks:
   default:
     driver: bridge
     name: roboshop
-    external: true
+    external: false # true if you are creating bridge network roboshop manually
 volumes:
   mongodb: # docker create volume mongodb
   redis:
